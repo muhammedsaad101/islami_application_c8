@@ -13,7 +13,7 @@ class MyApplication extends StatelessWidget{
       theme: MyThemeData.lightTheme,
       themeMode: ThemeMode.light,
       darkTheme: MyThemeData.darkTheme,
-      debugShowCheckedModeBanner: false,
+      debugShowCheckedModeBanner: true,
       routes: {
         HomeScreen.routeName : (context)=> HomeScreen(),
         SuraDetailsScreen.routeName : (_)=> SuraDetailsScreen(),

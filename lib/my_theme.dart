@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class MyThemeData {
   static const Color primaryLightColor = Color(0xFFB7935F);
@@ -26,18 +27,18 @@ class MyThemeData {
         unselectedIconTheme: IconThemeData(
           size: 28,
         )),
-    textTheme: const TextTheme(
-      bodySmall: TextStyle(
+    textTheme:  TextTheme(
+      bodySmall: GoogleFonts.elMessiri(
         fontSize: 20,
         fontWeight: FontWeight.bold,
         color: primaryLightColor,
       ),
-      bodyMedium: TextStyle(
+      bodyMedium: GoogleFonts.elMessiri(
         fontSize: 25,
         fontWeight: FontWeight.bold,
         color: Colors.black,
       ),
-      bodyLarge: TextStyle(
+      bodyLarge:GoogleFonts.elMessiri(
         fontSize: 30,
         fontWeight: FontWeight.bold,
         color: Colors.black,
